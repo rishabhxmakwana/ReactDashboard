@@ -1,0 +1,16 @@
+.popup {
+  position: fixed;
+  right: 0px;
+  top: 175px;
+  z-index: 1;
+}
+
+.filter-button {
+  background-color: #00C897;
+}
+
+.date-picker {
+  display: flex;
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
