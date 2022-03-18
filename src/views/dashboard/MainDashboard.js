@@ -7,6 +7,7 @@ import { Column,
   TableRow as BaseTableRow, } from 'react-base-table'
 import 'react-base-table/styles.css'
 import 'chart.piecelabel.js';
+import './MainDashboard.css';
 
 import  { useState } from 'react'
 
@@ -163,8 +164,8 @@ const wmsChartData = {
   </CCard>
     </CRow>
     <div style={{width: '93%', margin: '0 auto'}}>
-    <CRow>
-      <CCol style={{flex:'0 0',paddingRight:'1%', marginBottom: '4%',}}>
+    <CRow className='dcard'>
+      <CCol  style={{flex:'0 0',paddingRight:'1%', marginBottom: '4%',}}>
       <MainCard content={false} style={{ width: '25rem', border:'0px', borderRadius:'15px' }}>
                     <CardContent>
                         <Grid container spacing={gridSpacing}>
@@ -363,11 +364,13 @@ const wmsChartData = {
                         </Grid>
                     </CardContent>
                     <CardActions sx={{ p: 1.25, pt: 0, justifyContent: 'center' }}>
-                        <Link to='/dashboard/wms' style={{textDecoration: 'none' }}>
-                        <Button variant="contained" disableElevation style={{bottom: '0.5rem'}}>
+                        <Link id='card-link' to='/dashboard/wms' >
+                        {/* <Button variant="contained" disableElevation style={{bottom: '0.5rem'}}> */}
+                          <button id='view-all-btn'>
                             View All
                             <ChevronRightOutlinedIcon />
-                        </Button>
+                            </button>
+                        {/* </Button> */}
                         </Link>
                     </CardActions>
                 </MainCard>
@@ -528,11 +531,15 @@ const wmsChartData = {
                         </Grid>
                     </CardContent>
                     <CardActions sx={{ p: 1.25, pt: 0, justifyContent: 'center' }}>
-                    <Link to='/dashboard/ifms' style={{textDecoration: 'none' }}>
-                        <Button variant="contained" disableElevation style={{top: '3rem'}}>
+                    <Link id='card-link' to='/dashboard/ifms' >
+                        {/* <Button variant="contained" disableElevation style={{top: '3rem'}}>
                             View All
                             <ChevronRightOutlinedIcon />
-                        </Button>
+                        </Button> */}
+                        <button id='view-all-btn'>
+                            View All
+                            <ChevronRightOutlinedIcon />
+                        </button>
                         </Link>
                     </CardActions>
                 </MainCard>
@@ -771,11 +778,15 @@ const wmsChartData = {
                         </Grid>
                     </CardContent>
                     <CardActions sx={{ p: 1.25, pt: 0, justifyContent: 'center' }}>
-                    <Link to='/dashboard/gujmarg' style={{textDecoration: 'none' }}>
-                        <Button variant="contained" disableElevation style={{bottom: '0.5rem'}}>
+                    <Link id='card-link' to='/dashboard/gujmarg' >
+                        {/* <Button variant="contained" disableElevation style={{bottom: '0.5rem'}}>
                             View All
                             <ChevronRightOutlinedIcon />
-                        </Button>
+                        </Button> */}
+                        <button id='view-all-btn'>
+                            View All
+                            <ChevronRightOutlinedIcon />
+                        </button>
                         </Link>
                     </CardActions>
                 </MainCard>
@@ -983,11 +994,15 @@ const wmsChartData = {
                         </Grid>
                     </CardContent>
                     <CardActions sx={{ p: 1.25, pt: 0, justifyContent: 'center' }}>
-                    <Link to='/dashboard/gujrams' style={{textDecoration: 'none' }}>
-                        <Button variant="contained" disableElevation style={{top: '2rem'}}>
+                    <Link id='card-link' to='/dashboard/gujrams' >
+                        {/* <Button variant="contained" disableElevation style={{top: '2rem'}}>
                             View All
                             <ChevronRightOutlinedIcon />
-                        </Button>
+                        </Button> */}
+                        <button id='view-all-btn'>
+                            View All
+                            <ChevronRightOutlinedIcon />
+                        </button>
                         </Link>
                     </CardActions>
                 </MainCard>
@@ -1206,11 +1221,15 @@ const wmsChartData = {
                         </Grid>
                     </CardContent>
                     <CardActions sx={{ p: 1.25, pt: 0, justifyContent: 'center' }}>
-                    <Link to='/dashboard/iwdms' style={{textDecoration: 'none' }}>
-                        <Button variant="contained" disableElevation style={{bottom: '0.5rem'}}>
+                    <Link id='card-link' to='/dashboard/iwdms' >
+                        {/* <Button variant="contained" disableElevation style={{bottom: '0.5rem'}}>
                             View All
                             <ChevronRightOutlinedIcon />
-                        </Button>
+                        </Button> */}
+                        <button id='view-all-btn'>
+                            View All
+                            <ChevronRightOutlinedIcon />
+                        </button>
                         </Link>
                     </CardActions>
                 </MainCard>

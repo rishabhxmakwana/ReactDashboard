@@ -1,0 +1,68 @@
+#card-link {
+    text-decoration: none;
+}
+
+#view-all-btn {
+    text-transform: uppercase;
+    padding: 0.7rem;
+    font-size: 1rem;
+    background-color: #2FA4FF;
+    color: #fff;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 0.6rem;
+}
+
+@media (max-width: 1240px){
+    .dcard {
+        margin-left: 7rem;
+    }
+}
+
+@media (max-width: 1060px){
+    .dcard {
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 1040px){
+    .dcard {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .dcard {
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 900px){
+    .dcard {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 856px){
+    .dcard {
+        margin-left: 12rem;
+    }
+}
+
+@media (max-width: 750px){
+    .dcard {
+        margin-left: 8rem;
+    }
+}
+
+@media (max-width: 650px){
+    .dcard {
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 550px){
+    .dcard {
+        margin-left: 4rem;
+    }
+}
